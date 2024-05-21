@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <link href="register.css" rel="stylesheet" />
+        <title>Squirrel Banking - Register</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="register_case">
+                    <span class="logo">Squirrel Banking</span>
+                    <span class="register_band">Register</span>
+                    <form>
+                        <label class="user_name" for="username">Username</label>
+                        <input class="input_field" type="text" id="username" name="username" required />
+                        <label class="email" for="email">Email</label>
+                        <input class="input_field" type="email" id="email" name="email" required />
+                        <label class="pass_word" for="password">Password</label>
+                        <input class="input_field" type="password" id="password" name="password" required />
+                        <label class="confirm_pass_word" for="confirm_password">Confirm Password</label>
+                        <input class="input_field" type="password" id="confirm_password" name="confirm_password" required />
+                        <button class="submit" type="submit">
+                            <span class="button_register">Register</span>
+                        </button>
+                    </form>
+                    <span class="or">or</span>
+                    <button class="change_login" type="button" onclick="location.href='login.html'">
+                        <span class="button_login">Login</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

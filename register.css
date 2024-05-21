@@ -1,0 +1,119 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3b3bdf;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Wrapper */
+.wrapper {
+    width: 100%;
+}
+
+/* Register Case */
+.register_case {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Register Band */
+.register_band {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.user_name, .email, .pass_word, .confirm_pass_word {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+.input_field {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+/* Submit Button */
+.submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+    margin-bottom: 15px; /* Space below the button */
+}
+
+.submit:hover {
+    background-color: #218838;
+}
+
+/* Or Text */
+.or {
+    text-align: center;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Login Button */
+.change_login {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.change_login:hover {
+    background-color: #0056b3;
+}
